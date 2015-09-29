@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>喂，HIHI！</string>
+		<key>time</key>
+		<string>前天 10:27</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>问你个严肃的事</string>
+		<key>time</key>
+		<string>前天 10:28</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>说，什么事？</string>
+		<key>time</key>
+		<string>昨天 20:05</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就想问下：你是不是我最好的朋友？</string>
+		<key>time</key>
+		<string>昨天 20:07</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>不借</string>
+		<key>time</key>
+		<string>昨天 20:07</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我又不缺钱。你就回答“是”或者“不是”。</string>
+		<key>time</key>
+		<string>昨天 20:07</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>是</string>
+		<key>time</key>
+		<string>昨天 20:11</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>刚才看了部非常感人的电视剧，电视上说狗才是人类最好的朋友，所以我想确认一下</string>
+		<key>time</key>
+		<string>昨天 20:15</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>。。。。。。。。。</string>
+		<key>time</key>
+		<string>昨天 20:15</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>UITableView是一次性计算完所有Cell的高度，如果有1W个Cell，那么- (CGFloat)tableView:(UITableView )tableView heightForRowAtIndexPath:(NSIndexPath )indexPath就会触发1W次，然后才显示内容。</string>
+		<key>time</key>
+		<string>昨天 20:21</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>你在说什么？。。。。。。。。。。。</string>
+		<key>time</key>
+		<string>昨天 20:25</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我不放牛了，我爸就逼我做农民</string>
+		<key>time</key>
+		<string>昨天 20:40</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>不要再跟我说话了</string>
+		<key>time</key>
+		<string>昨天 21:15</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>不能交流。。。。。。</string>
+		<key>time</key>
+		<string>昨天 21:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。就会说些乱说八道的话。</string>
+		<key>time</key>
+		<string>昨天 20:20</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+</array>
+</plist>

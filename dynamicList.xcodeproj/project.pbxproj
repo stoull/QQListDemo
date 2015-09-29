@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67CC2D191BBA616F00311EF6 /* ChatViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CC2D181BBA616F00311EF6 /* ChatViewContorller.m */; };
+		67CC2D1D1BBA706E00311EF6 /* messageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CC2D1B1BBA706E00311EF6 /* messageCell.m */; };
+		67CC2D1E1BBA706E00311EF6 /* messageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67CC2D1C1BBA706E00311EF6 /* messageCell.xib */; };
+		67CC2D211BBA73B700311EF6 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CC2D201BBA73B700311EF6 /* Message.m */; };
+		67CC2D251BBAB58F00311EF6 /* receiveMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CC2D231BBAB58F00311EF6 /* receiveMessageCell.m */; };
+		67CC2D261BBAB58F00311EF6 /* receiveMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67CC2D241BBAB58F00311EF6 /* receiveMessageCell.xib */; };
+		67D6E7B81BB8D4480098556F /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67D6E7B61BB8D4480098556F /* friends.plist */; };
+		67D6E7B91BB8D4480098556F /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67D6E7B71BB8D4480098556F /* messages.plist */; };
+		67D6E7BD1BB8D9C70098556F /* FriendGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D6E7BC1BB8D9C70098556F /* FriendGroup.m */; };
+		67D6E7C01BB8DBE00098556F /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D6E7BF1BB8DBE00098556F /* Friend.m */; };
+		67D6E7CA1BB8E5F60098556F /* tableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D6E7C81BB8E5F60098556F /* tableViewCell.m */; };
+		67D6E7CB1BB8E5F60098556F /* tableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D6E7C91BB8E5F60098556F /* tableViewCell.xib */; };
+		67D6E7CD1BB9354B0098556F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67D6E7CC1BB9354B0098556F /* Images.xcassets */; };
 		67EB7C031BB5455800F00330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EB7C021BB5455800F00330 /* main.m */; };
 		67EB7C061BB5455800F00330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EB7C051BB5455800F00330 /* AppDelegate.m */; };
 		67EB7C091BB5455800F00330 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EB7C081BB5455800F00330 /* ViewController.m */; };
 		67EB7C0C1BB5455800F00330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67EB7C0A1BB5455800F00330 /* Main.storyboard */; };
-		67EB7C0E1BB5455800F00330 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EB7C0D1BB5455800F00330 /* Images.xcassets */; };
 		67EB7C111BB5455800F00330 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67EB7C0F1BB5455800F00330 /* LaunchScreen.xib */; };
 		67EB7C1D1BB5455800F00330 /* dynamicListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EB7C1C1BB5455800F00330 /* dynamicListTests.m */; };
 /* End PBXBuildFile section */
@@ -27,6 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67CC2D171BBA616F00311EF6 /* ChatViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewContorller.h; sourceTree = "<group>"; };
+		67CC2D181BBA616F00311EF6 /* ChatViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewContorller.m; sourceTree = "<group>"; };
+		67CC2D1A1BBA706E00311EF6 /* messageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageCell.h; sourceTree = "<group>"; };
+		67CC2D1B1BBA706E00311EF6 /* messageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageCell.m; sourceTree = "<group>"; };
+		67CC2D1C1BBA706E00311EF6 /* messageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = messageCell.xib; sourceTree = "<group>"; };
+		67CC2D1F1BBA73B700311EF6 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		67CC2D201BBA73B700311EF6 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		67CC2D221BBAB58F00311EF6 /* receiveMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = receiveMessageCell.h; sourceTree = "<group>"; };
+		67CC2D231BBAB58F00311EF6 /* receiveMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = receiveMessageCell.m; sourceTree = "<group>"; };
+		67CC2D241BBAB58F00311EF6 /* receiveMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = receiveMessageCell.xib; sourceTree = "<group>"; };
+		67D6E7B61BB8D4480098556F /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		67D6E7B71BB8D4480098556F /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		67D6E7BB1BB8D9C70098556F /* FriendGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendGroup.h; sourceTree = "<group>"; };
+		67D6E7BC1BB8D9C70098556F /* FriendGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendGroup.m; sourceTree = "<group>"; };
+		67D6E7BE1BB8DBE00098556F /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
+		67D6E7BF1BB8DBE00098556F /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		67D6E7C71BB8E5F60098556F /* tableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewCell.h; sourceTree = "<group>"; };
+		67D6E7C81BB8E5F60098556F /* tableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewCell.m; sourceTree = "<group>"; };
+		67D6E7C91BB8E5F60098556F /* tableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tableViewCell.xib; sourceTree = "<group>"; };
+		67D6E7CC1BB9354B0098556F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		67EB7BFD1BB5455800F00330 /* dynamicList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynamicList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EB7C011BB5455800F00330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67EB7C021BB5455800F00330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,7 +67,6 @@
 		67EB7C071BB5455800F00330 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		67EB7C081BB5455800F00330 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		67EB7C0B1BB5455800F00330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67EB7C0D1BB5455800F00330 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		67EB7C101BB5455800F00330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		67EB7C161BB5455800F00330 /* dynamicListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dynamicListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EB7C1B1BB5455800F00330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +91,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D6E7BA1BB8D9800098556F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67D6E7BB1BB8D9C70098556F /* FriendGroup.h */,
+				67D6E7BC1BB8D9C70098556F /* FriendGroup.m */,
+				67D6E7BE1BB8DBE00098556F /* Friend.h */,
+				67D6E7BF1BB8DBE00098556F /* Friend.m */,
+				67CC2D1F1BBA73B700311EF6 /* Message.h */,
+				67CC2D201BBA73B700311EF6 /* Message.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		67D6E7C61BB8E4CE0098556F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67D6E7C71BB8E5F60098556F /* tableViewCell.h */,
+				67D6E7C81BB8E5F60098556F /* tableViewCell.m */,
+				67D6E7C91BB8E5F60098556F /* tableViewCell.xib */,
+				67CC2D1A1BBA706E00311EF6 /* messageCell.h */,
+				67CC2D1B1BBA706E00311EF6 /* messageCell.m */,
+				67CC2D1C1BBA706E00311EF6 /* messageCell.xib */,
+				67CC2D221BBAB58F00311EF6 /* receiveMessageCell.h */,
+				67CC2D231BBAB58F00311EF6 /* receiveMessageCell.m */,
+				67CC2D241BBAB58F00311EF6 /* receiveMessageCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		67EB7BF41BB5455800F00330 = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +145,10 @@
 				67EB7C051BB5455800F00330 /* AppDelegate.m */,
 				67EB7C071BB5455800F00330 /* ViewController.h */,
 				67EB7C081BB5455800F00330 /* ViewController.m */,
-				67EB7C0A1BB5455800F00330 /* Main.storyboard */,
-				67EB7C0D1BB5455800F00330 /* Images.xcassets */,
-				67EB7C0F1BB5455800F00330 /* LaunchScreen.xib */,
+				67CC2D171BBA616F00311EF6 /* ChatViewContorller.h */,
+				67CC2D181BBA616F00311EF6 /* ChatViewContorller.m */,
+				67D6E7C61BB8E4CE0098556F /* View */,
+				67D6E7BA1BB8D9800098556F /* Model */,
 				67EB7C001BB5455800F00330 /* Supporting Files */,
 			);
 			path = dynamicList;
@@ -96,8 +157,13 @@
 		67EB7C001BB5455800F00330 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				67EB7C0A1BB5455800F00330 /* Main.storyboard */,
+				67EB7C0F1BB5455800F00330 /* LaunchScreen.xib */,
+				67D6E7CC1BB9354B0098556F /* Images.xcassets */,
 				67EB7C011BB5455800F00330 /* Info.plist */,
 				67EB7C021BB5455800F00330 /* main.m */,
+				67D6E7B61BB8D4480098556F /* friends.plist */,
+				67D6E7B71BB8D4480098556F /* messages.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -201,7 +267,12 @@
 			files = (
 				67EB7C0C1BB5455800F00330 /* Main.storyboard in Resources */,
 				67EB7C111BB5455800F00330 /* LaunchScreen.xib in Resources */,
-				67EB7C0E1BB5455800F00330 /* Images.xcassets in Resources */,
+				67D6E7B91BB8D4480098556F /* messages.plist in Resources */,
+				67D6E7CD1BB9354B0098556F /* Images.xcassets in Resources */,
+				67D6E7B81BB8D4480098556F /* friends.plist in Resources */,
+				67D6E7CB1BB8E5F60098556F /* tableViewCell.xib in Resources */,
+				67CC2D1E1BBA706E00311EF6 /* messageCell.xib in Resources */,
+				67CC2D261BBAB58F00311EF6 /* receiveMessageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67CC2D191BBA616F00311EF6 /* ChatViewContorller.m in Sources */,
 				67EB7C091BB5455800F00330 /* ViewController.m in Sources */,
+				67D6E7BD1BB8D9C70098556F /* FriendGroup.m in Sources */,
 				67EB7C061BB5455800F00330 /* AppDelegate.m in Sources */,
+				67D6E7C01BB8DBE00098556F /* Friend.m in Sources */,
+				67CC2D251BBAB58F00311EF6 /* receiveMessageCell.m in Sources */,
+				67CC2D1D1BBA706E00311EF6 /* messageCell.m in Sources */,
 				67EB7C031BB5455800F00330 /* main.m in Sources */,
+				67CC2D211BBA73B700311EF6 /* Message.m in Sources */,
+				67D6E7CA1BB8E5F60098556F /* tableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +496,7 @@
 				67EB7C221BB5455800F00330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67EB7C231BB5455800F00330 /* Build configuration list for PBXNativeTarget "dynamicListTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +505,7 @@
 				67EB7C251BB5455800F00330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
