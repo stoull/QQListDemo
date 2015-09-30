@@ -8,7 +8,6 @@
 
 #import "messageCell.h"
 @interface messageCell ()
-@property (nonatomic,strong) Message *message;
 @end
 @implementation messageCell
 
@@ -24,11 +23,10 @@
 
 - (void)setMessageByMessage:(Message *)message
 {
-    self.message = message;
     self.timeLabel.text = message.time;
     self.messageTextLabel.text = message.messageText;
-    
-    [self drawRect:self.frame];
+    self.messageTextLabel.textColor = [UIColor whiteColor];
+    self.backgroundImage.image = [UIImage imageNamed:@"chat_send_nor"];
 }
 
 
@@ -42,15 +40,6 @@
 - (void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];
-    
-    if (self.message.property) {
-        self.messageTextLabel.textAlignment = NSTextAlignmentRight;
-        self.backgroundImage.image = [UIImage imageNamed:@"chat_send_nor"];
-    }else{
-        self.messageTextLabel.textAlignment = NSTextAlignmentLeft;
-        self.backgroundImage.image = [UIImage imageNamed:@"chat_recive_press_pic"];
-        self.icon.frame = CGRectMake(10, 14, 44, 44);
-    }
 }
 
 @end

@@ -20,4 +20,10 @@
     // Configure the view for the selected state
 }
 
+- (void)setMessageByMessage:(Message *)message
+{
+    self.timeLabel.text = message.time;
+    self.messageTextLabel.text = message.messageText;
+    self.backgroundImage.image = [UIImage imageNamed:@"chat_recive_nor"];
+}
 @end

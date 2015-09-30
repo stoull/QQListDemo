@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678D30C61BBBB0E000D79AE4 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678D30C41BBBB0E000D79AE4 /* detailViewController.m */; };
+		678D30C71BBBB0E000D79AE4 /* detailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 678D30C51BBBB0E000D79AE4 /* detailViewController.xib */; };
 		67CC2D191BBA616F00311EF6 /* ChatViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CC2D181BBA616F00311EF6 /* ChatViewContorller.m */; };
 		67CC2D1D1BBA706E00311EF6 /* messageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67CC2D1B1BBA706E00311EF6 /* messageCell.m */; };
 		67CC2D1E1BBA706E00311EF6 /* messageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67CC2D1C1BBA706E00311EF6 /* messageCell.xib */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		678D30C31BBBB0E000D79AE4 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		678D30C41BBBB0E000D79AE4 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		678D30C51BBBB0E000D79AE4 /* detailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = detailViewController.xib; sourceTree = "<group>"; };
 		67CC2D171BBA616F00311EF6 /* ChatViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewContorller.h; sourceTree = "<group>"; };
 		67CC2D181BBA616F00311EF6 /* ChatViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewContorller.m; sourceTree = "<group>"; };
 		67CC2D1A1BBA706E00311EF6 /* messageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageCell.h; sourceTree = "<group>"; };
@@ -147,6 +152,9 @@
 				67EB7C081BB5455800F00330 /* ViewController.m */,
 				67CC2D171BBA616F00311EF6 /* ChatViewContorller.h */,
 				67CC2D181BBA616F00311EF6 /* ChatViewContorller.m */,
+				678D30C31BBBB0E000D79AE4 /* detailViewController.h */,
+				678D30C41BBBB0E000D79AE4 /* detailViewController.m */,
+				678D30C51BBBB0E000D79AE4 /* detailViewController.xib */,
 				67D6E7C61BB8E4CE0098556F /* View */,
 				67D6E7BA1BB8D9800098556F /* Model */,
 				67EB7C001BB5455800F00330 /* Supporting Files */,
@@ -265,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678D30C71BBBB0E000D79AE4 /* detailViewController.xib in Resources */,
 				67EB7C0C1BB5455800F00330 /* Main.storyboard in Resources */,
 				67EB7C111BB5455800F00330 /* LaunchScreen.xib in Resources */,
 				67D6E7B91BB8D4480098556F /* messages.plist in Resources */,
@@ -293,6 +302,7 @@
 				67CC2D191BBA616F00311EF6 /* ChatViewContorller.m in Sources */,
 				67EB7C091BB5455800F00330 /* ViewController.m in Sources */,
 				67D6E7BD1BB8D9C70098556F /* FriendGroup.m in Sources */,
+				678D30C61BBBB0E000D79AE4 /* detailViewController.m in Sources */,
 				67EB7C061BB5455800F00330 /* AppDelegate.m in Sources */,
 				67D6E7C01BB8DBE00098556F /* Friend.m in Sources */,
 				67CC2D251BBAB58F00311EF6 /* receiveMessageCell.m in Sources */,
@@ -427,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = dynamicList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = dynamicList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -15,48 +15,53 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qZu-hN-GNV">
-                        <rect key="frame" x="52" y="13" width="200" height="123"/>
+                        <rect key="frame" x="57" y="13" width="185" height="133"/>
                     </imageView>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001" translatesAutoresizingMaskIntoConstraints="NO" id="qeV-PP-yVX">
-                        <rect key="frame" x="8" y="18" width="44" height="44"/>
+                        <rect key="frame" x="8" y="23" width="44" height="44"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="44" id="FGU-Tu-seq"/>
                             <constraint firstAttribute="height" constant="44" id="UyL-DR-N72"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天 16：32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIt-ER-IfE">
-                        <rect key="frame" x="73" y="8" width="174" height="14"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="14" id="Tea-dy-CjL"/>
-                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14" id="qRq-l4-eMc"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。" lineBreakMode="tailTruncation" numberOfLines="999" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyx-GT-uXU">
+                        <rect key="frame" x="72" y="23" width="155" height="113"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="我就说你不要回家去，留在学校里面把那本书给看完。你就可以知道那故事在讲什么了，现在好了，回家一趟，牛也卖掉了，你还可以干嘛呢。" lineBreakMode="tailTruncation" numberOfLines="999" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyx-GT-uXU">
-                        <rect key="frame" x="62" y="18" width="180" height="118"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昨天 16：32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIt-ER-IfE">
+                        <rect key="frame" x="68" y="3" width="174" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Lbe-za-Syg"/>
+                            <constraint firstAttribute="width" constant="174" id="kCQ-04-ZfL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="zyx-GT-uXU" secondAttribute="trailing" constant="70" id="4d5-OV-TQU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="zyx-GT-uXU" secondAttribute="trailing" constant="85" id="4d5-OV-TQU"/>
                     <constraint firstItem="zyx-GT-uXU" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="6lh-d9-An9"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="QIt-ER-IfE" secondAttribute="trailing" constant="65" id="7eh-6F-5kC"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="qZu-hN-GNV" secondAttribute="trailing" constant="60" id="8tJ-BL-QYW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qZu-hN-GNV" secondAttribute="trailing" constant="70" id="8tJ-BL-QYW"/>
                     <constraint firstItem="qZu-hN-GNV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="G4S-JK-hBI"/>
-                    <constraint firstItem="zyx-GT-uXU" firstAttribute="leading" secondItem="qeV-PP-yVX" secondAttribute="trailing" constant="10" id="Lro-cf-0xk"/>
-                    <constraint firstItem="zyx-GT-uXU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="ZmI-rq-LAK"/>
-                    <constraint firstItem="QIt-ER-IfE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="aOT-eM-BWN"/>
-                    <constraint firstItem="QIt-ER-IfE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="65" id="ens-wQ-oZa"/>
+                    <constraint firstItem="zyx-GT-uXU" firstAttribute="leading" secondItem="qeV-PP-yVX" secondAttribute="trailing" constant="20" id="Lro-cf-0xk"/>
+                    <constraint firstItem="zyx-GT-uXU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="15" id="ZmI-rq-LAK"/>
                     <constraint firstItem="qeV-PP-yVX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="iHD-e6-7VU"/>
+                    <constraint firstItem="QIt-ER-IfE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="60" id="lbB-oU-CgK"/>
                     <constraint firstItem="zyx-GT-uXU" firstAttribute="top" secondItem="qeV-PP-yVX" secondAttribute="top" id="m8M-Xo-LWg"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="qZu-hN-GNV" secondAttribute="bottom" id="ngy-Mv-yNS"/>
-                    <constraint firstItem="qZu-hN-GNV" firstAttribute="leading" secondItem="qeV-PP-yVX" secondAttribute="trailing" id="swz-xw-kOZ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="qZu-hN-GNV" secondAttribute="bottom" constant="-10" id="ngy-Mv-yNS"/>
+                    <constraint firstItem="qZu-hN-GNV" firstAttribute="leading" secondItem="qeV-PP-yVX" secondAttribute="trailing" constant="5" id="swz-xw-kOZ"/>
+                    <constraint firstItem="QIt-ER-IfE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-5" id="vFP-69-TQs"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundImage" destination="qZu-hN-GNV" id="Q9U-01-Bdv"/>
+                <outlet property="icon" destination="qeV-PP-yVX" id="3OY-rj-EoP"/>
+                <outlet property="messageTextLabel" destination="zyx-GT-uXU" id="syU-QS-KIo"/>
+                <outlet property="timeLabel" destination="QIt-ER-IfE" id="bXO-As-hmV"/>
+            </connections>
             <point key="canvasLocation" x="438" y="415.5"/>
         </tableViewCell>
     </objects>
