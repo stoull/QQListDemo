@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Friend.h"
 @interface detailViewController : UIViewController
-
+@property (nonatomic,strong) Friend *chatFriend;
 @end

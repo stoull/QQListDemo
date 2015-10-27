@@ -10,6 +10,7 @@
 #import "messageCell.h"
 #import "receiveMessageCell.h"
 #import "Message.h"
+#import "detailViewController.h"
 
 #define kToolBarH 44
 #define kTextFieldH 30
@@ -85,7 +86,7 @@ static CGFloat offsetY = 0;
     
     UIImage *iconImage = [self scaleToSize:[UIImage imageNamed:self.chatFriend.icon] size:CGSizeMake(80, 80)];
     UIButton *friendButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 35, 35)];
-    [friendButton addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    [friendButton addTarget:self action:@selector(detailClick) forControlEvents:UIControlEventTouchUpInside];
     [friendButton setBackgroundImage:[self circleImageWithImage:iconImage borderWidth:0 boraderColor:[UIColor clearColor]] forState:UIControlStateNormal];
     UIBarButtonItem *infroButton = [[UIBarButtonItem alloc] initWithCustomView:friendButton];
     infroButton.tintColor = [UIColor clearColor];
@@ -95,6 +96,14 @@ static CGFloat offsetY = 0;
 -(void)back
 {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+-(void)detailClick
+{
+    detailViewController *detailController = [[detailViewController alloc] initWithNibName:@"detailViewController" bundle:nil];
+    detailController.chatFriend = self.chatFriend;
+    [self.navigationController pushViewController:detailController animated:YES];
+    
 }
 
 - (void)setToolView

@@ -9,6 +9,9 @@
 #import "detailViewController.h"
 
 @interface detailViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *profileLabel;
 
 @end
 
@@ -17,11 +20,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.iconImageView.image = [UIImage imageNamed:self.chatFriend.icon];
+    self.nameLabel.text = self.chatFriend.nickName;
+    self.profileLabel.text = self.chatFriend.signature;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)sendClick:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*
